@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tumu.dev/static/css/main.b100e6da.chunk.css",
+    "main.js": "/tumu.dev/static/js/main.7834ec25.chunk.js",
+    "main.js.map": "/tumu.dev/static/js/main.7834ec25.chunk.js.map",
+    "runtime-main.js": "/tumu.dev/static/js/runtime-main.fcaa77e4.js",
+    "runtime-main.js.map": "/tumu.dev/static/js/runtime-main.fcaa77e4.js.map",
+    "static/js/2.4b6d1332.chunk.js": "/tumu.dev/static/js/2.4b6d1332.chunk.js",
+    "static/js/2.4b6d1332.chunk.js.map": "/tumu.dev/static/js/2.4b6d1332.chunk.js.map",
+    "index.html": "/tumu.dev/index.html",
+    "precache-manifest.161c572a611963de8d66e8a25ff59d0c.js": "/tumu.dev/precache-manifest.161c572a611963de8d66e8a25ff59d0c.js",
+    "service-worker.js": "/tumu.dev/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/tumu.dev/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/tumu.dev/static/media/logo.25bf045c.svg"
+  }
+}
