@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b100e6da.chunk.css",
-    "main.js": "/static/js/main.a3409ba5.chunk.js",
-    "main.js.map": "/static/js/main.a3409ba5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f949f7e3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f949f7e3.js.map",
-    "static/js/2.4b6d1332.chunk.js": "/static/js/2.4b6d1332.chunk.js",
-    "static/js/2.4b6d1332.chunk.js.map": "/static/js/2.4b6d1332.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.068415f4100fd2410f8869e2ff49b66d.js": "/precache-manifest.068415f4100fd2410f8869e2ff49b66d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.25bf045c.svg"
+    "main.css": "/tumu.dev/static/css/main.b100e6da.chunk.css",
+    "main.js": "/tumu.dev/static/js/main.279d6d0e.chunk.js",
+    "main.js.map": "/tumu.dev/static/js/main.279d6d0e.chunk.js.map",
+    "runtime-main.js": "/tumu.dev/static/js/runtime-main.fcaa77e4.js",
+    "runtime-main.js.map": "/tumu.dev/static/js/runtime-main.fcaa77e4.js.map",
+    "static/js/2.4b6d1332.chunk.js": "/tumu.dev/static/js/2.4b6d1332.chunk.js",
+    "static/js/2.4b6d1332.chunk.js.map": "/tumu.dev/static/js/2.4b6d1332.chunk.js.map",
+    "index.html": "/tumu.dev/index.html",
+    "precache-manifest.dcb74d64e12990586f687b18d0f9da17.js": "/tumu.dev/precache-manifest.dcb74d64e12990586f687b18d0f9da17.js",
+    "service-worker.js": "/tumu.dev/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/tumu.dev/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/tumu.dev/static/media/logo.25bf045c.svg"
   }
 }
