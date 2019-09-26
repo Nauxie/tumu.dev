@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5959562259f5b7b653aab83aca5d2447",
+    "revision": "1e104a1f8d968343acfa2d1394d08ba1",
     "url": "/tumu.dev/index.html"
   },
   {
-    "revision": "0a6e2e6c589018a6c243",
+    "revision": "dfe2d9f29b54a004d5e5",
     "url": "/tumu.dev/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tumu.dev/static/js/2.4b6d1332.chunk.js"
   },
   {
-    "revision": "0a6e2e6c589018a6c243",
-    "url": "/tumu.dev/static/js/main.7834ec25.chunk.js"
+    "revision": "dfe2d9f29b54a004d5e5",
+    "url": "/tumu.dev/static/js/main.279d6d0e.chunk.js"
   },
   {
     "revision": "8662089f5b046bf16abd",
