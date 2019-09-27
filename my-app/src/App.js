@@ -1,44 +1,39 @@
 import React from 'react';
 import logo from './logo.svg';
-import pic from './images/abhinav2.jpg'
-//import './App.css';
+import pic from './images/abhinav3.png'
+import './App.css';
+import Typing from 'react-typing-animation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Abhinav Tumu
-        </p>
-        <img src={pic} className="App-logo" alt="logo" />
+    <div className="Background">
+      <Typing>
+        <h2>Abhinav Tumu</h2>
+      </Typing>
+      <img className="profpic" src={pic} alt="logo" />
 
-        <div className="links">
-          <a
-            className="App-link"
-            href="https://www.linkedin.com/in/abhinav-tumu-863635170/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn 
+      <div className="links">
+        <a
+          href="https://www.linkedin.com/in/abhinav-tumu-863635170/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
         </a>
         <p>
-
         </p>
-          <a
-            className="App-link"
-            href="https://github.com/Nauxie"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
+        <a
+          href="https://github.com/Nauxie"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
         </a>
-        <p>
-          Work in progress! Check back later :)
+
+      </div>
+      <p>
+        Work in progress! Check back later :)
         </p>
-
-        </div>
-
-      </header>
     </div>
   );
 }
