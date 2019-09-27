@@ -1,7 +1,7 @@
 .Background {
     background: rgb(83, 76, 214);
     background: linear-gradient(90deg, rgb(56, 134, 236) 0%, rgba(0,212,255,1) 50%, rgb(37, 149, 241) 100%);
-    background: white;
+    background: rgb(196, 213, 231);
     height: 100%;
     content: " ";
     width: 100%;
@@ -11,9 +11,10 @@
     top: 0;
     left: 0;
     text-align: center;
+    
 }
 
-h2 {
+h1 {
     font-family: 'Courier New', Courier, monospace;
     color: gray;
 }
@@ -26,7 +27,18 @@ h2 {
 }
 
 .links {
+   
+    
     text-align: center;
 
+}
+.link {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.text1 {
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
