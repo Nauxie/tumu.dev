@@ -22,7 +22,7 @@ function App() {
             LinkedIn 
         </a>
         <p>
-          
+
         </p>
           <a
             className="App-link"
@@ -32,6 +32,9 @@ function App() {
           >
             Github
         </a>
+        <p>
+          Work in progress! Check back later :)
+        </p>
 
         </div>
 
