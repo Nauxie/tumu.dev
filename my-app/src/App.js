@@ -1,24 +1,40 @@
 import React from 'react';
 import logo from './logo.svg';
-import pic from './images/abhinav.jpg'
-import './App.css';
+import pic from './images/abhinav2.jpg'
+//import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={pic} className="App-logo" alt="logo" />
         <p>
-          SUP TEEKERS
+          Abhinav Tumu
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <img src={pic} className="App-logo" alt="logo" />
+
+        <div className="links">
+          <a
+            className="App-link"
+            href="https://www.linkedin.com/in/abhinav-tumu-863635170/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn 
         </a>
+        <p>
+          
+        </p>
+          <a
+            className="App-link"
+            href="https://github.com/Nauxie"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+        </a>
+
+        </div>
+
       </header>
     </div>
   );

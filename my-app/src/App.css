@@ -3,9 +3,19 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
+.links {
+  float: left;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,6 +27,10 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #09d3ac;
+  margin-right: 10px;
+  margin-left:10px;
 }
