@@ -52,6 +52,16 @@ function App() {
         >
           <img className="smallpic" src='https://seeklogo.com/images/D/devpost-logo-95FF685C5D-seeklogo.com.png' alt='Devpost' />
         </a>
+        
+        <a
+          href="https://drive.google.com/file/d/1VYiJAIV1bRPoLm8FTjmvuRKIvYH0sgWT/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+          title='Resume'
+        >
+          <img className="smallpic" src='https://www.pinclipart.com/picdir/middle/110-1103863_treaty-clipart-transparent-resume-icon-transparent-png-download.png' alt='Resume' />
+        </a>
 
       </div>
       <div>
