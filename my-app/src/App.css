@@ -17,7 +17,7 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: gray;
-    font-size: 50px;  
+    font-size: 40px;  
 }
 
 .profpic {
@@ -66,4 +66,10 @@ h1 {
 .smallpic {
     height: 32px;
     margin-top: 10px;
+}
+
+.bottomtext {
+    text-align: right;
+    font-size:15px;
+
 }
