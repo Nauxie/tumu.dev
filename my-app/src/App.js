@@ -7,7 +7,7 @@ import red from './images/redux.png'
 import nod from './images/node.png'
 import ker from './images/keras.jpg'
 import tensor from './images/tensorflow.png'
-import Particles from 'react-particles-js'
+//import Particles from 'react-particles-js'
 
 const name = "{Abhinav Tumu}"
 
@@ -72,17 +72,17 @@ function App() {
           <a title="Javascript">
             <img className="icon2" src='http://pluspng.com/img-png/javascript-vector-png-javascript-vector-logo-600.png' alt="logo" />
           </a>
+          <a title="HTML5">
+            <img className="icon2" src='https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png' alt="logotest" />
+          </a>
           <a title="Python">
             <img className="icon2" src='http://www.iconarchive.com/download/i73027/cornmanthe3rd/plex/Other-python.ico' alt="logo" />
           </a>
           <a title="Java">
             <img className="icon2" src='https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png' alt="logo" />
           </a>
-          <a title="HTML5">
-            <img className="icon2" src='https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png' alt="logo" />
-          </a>
-          <a title="CSS">
-            <img className="icon2" src='https://redpixel.com/_uploads/CSS3_Badge_512.png?w=640' alt="logo" />
+          <a title="C++">
+            <img className="icon2" src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png' alt="logo" />
           </a>
 
         </div>
