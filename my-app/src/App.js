@@ -10,7 +10,7 @@ import tensor from './images/tensorflow.png'
 //import Particles from 'react-particles-js'
 
 const name = "{Abhinav Tumu}"
-
+//<p className='desc'>Full Stack Web Developer + Engineer  </p>
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <h1>{name}</h1>
 
       </Typing>
+      
       <img className="profpic" src={pic} alt="logo" />
 
 
@@ -56,7 +57,7 @@ function App() {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1VYiJAIV1bRPoLm8FTjmvuRKIvYH0sgWT/view?usp=sharing"
+          href="https://pdfhost.io/v/Qbiug0qy3_Resume_10292019_Tumu_finalpdf.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="link"
@@ -69,7 +70,7 @@ function App() {
       <div>
         <div>
           <p className='titletype'>Languages</p>
-          <a title="Javascript">
+          <a title="JavaScript">
             <img className="icon2" src='http://pluspng.com/img-png/javascript-vector-png-javascript-vector-logo-600.png' alt="logo" />
           </a>
           <a title="HTML5">
@@ -98,12 +99,24 @@ function App() {
           <a href="https://nodejs.org/en/" title="Nodejs">
             <img className="icon" src={nod} alt="logo" />
           </a>
+          <a href="https://expressjs.com" title="Express.js">
+            <img className="icon" src='https://content.nexza.com/stack-items/express.png' alt="logo" />
+          </a>
           <a href="https://keras.io/" title="Keras">
             <img className="icon" src={ker} alt="logo" />
           </a>
           <a href="https://www.tensorflow.org/" title="Tensorflow">
-            <img className="icon" src={tensor} alt="logo" />
+            <img className="iconspec" src={tensor} alt="logo" />
           </a>
+          <a href="https://expressjs.com/"
+             title="Express.js" className ="icon" src='https://www.pngfind.com/pngs/m/136-1363736_express-js-icon-png-transparent-png.png' alt='logo'>
+          </a>
+          
+          <a href="http://flask.palletsprojects.co m/en/1.1.x/" title="Flask ">
+            <img className="iconspec" src='https://www.todesktop.com/images/1c2437c139969ae8e4100b477fb824f1.svg' alt="logo" />
+          </a>  
+        
+          
         </div>
 
       </div>

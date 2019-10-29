@@ -50,6 +50,10 @@ h1 {
     margin-right: 10px;
     display: inline-block;
 }
+.iconspec {
+    height: 64px;
+    display: inline-block;
+}
 
 .icon2 {
     height: 96px;
@@ -57,10 +61,15 @@ h1 {
     margin-right: 10px;
     display: inline-block;
 }
+.desc {
+    font-size: 25px;
+    font-family: 'Roboto';
+
+}
 
 .titletype {
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-size: 25px;
+    font-family: 'Roboto';
 }
 
 .smallpic {
