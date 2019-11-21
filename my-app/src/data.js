@@ -28,21 +28,25 @@ const data = {
   ],
   languages: [
     {
+      link: 'https://www.javascript.com/',
       title: 'JavaScript',
       imgsrc:
         'http://pluspng.com/img-png/javascript-vector-png-javascript-vector-logo-600.png'
     },
     {
+      link: 'https://www.python.org/',
       title: 'Python',
       imgsrc:
         'http://www.iconarchive.com/download/i73027/cornmanthe3rd/plex/Other-python.ico'
     },
     {
+      link: 'https://www.java.com/en/',
       title: 'Java',
       imgsrc:
         'https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png'
     },
     {
+      link: 'http://www.cplusplus.com/',
       title: 'C++',
       imgsrc:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png'

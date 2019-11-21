@@ -20,10 +20,71 @@ h1 {
   font-size: 40px;
 }
 
+.linear-wipe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    #ee7752 20%,
+    #e73c7e 40%,
+    #23a6d5 60%,
+    #23d5ab 80%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+.headers {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 5rem;
+  font-weight: 10;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: linear-gradient(to right, #447cf5, #1ff5c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.bioDiv {
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
 .profpic {
   height: 300px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 5px solid white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 .links {
@@ -55,6 +116,7 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
   display: inline-block;
+  border-radius: 20px;
 }
 .desc {
   font-size: 25px;
@@ -62,13 +124,19 @@ h1 {
 }
 
 .titletype {
+  margin-top: 10px;
   font-size: 25px;
-  font-family: 'Roboto';
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .smallpic {
   height: 32px;
   margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 30px;
 }
 
 .bottomtext {

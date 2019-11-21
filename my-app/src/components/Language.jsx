@@ -2,12 +2,14 @@ import React from 'react'
 
 function Language(props) {
   return (
-    <img
+    <a
+      href={props.link}
       title={props.title}
-      className='icon2'
-      src={props.imgsrc}
-      alt={props.title}
-    />
+      target='_blank'
+      rel='noopener noreferrer'
+    >
+      <img className='icon2' src={props.imgsrc} alt={props.title} />
+    </a>
   )
 }
 export default Language

@@ -5,14 +5,16 @@ import Typing from 'react-typing-animation'
 import MiniIcon from './components/MiniIcon'
 import Language from './components/Language'
 import Framework from './components/Framework'
-import data from './data'
+import dataa from './data'
+import Fade from 'react-reveal/Fade'
+import Flip from 'react-reveal/Flip'
 
 function App() {
-  const [miniIcons] = useState(data.miniIcons)
-  const [languages] = useState(data.languages)
-  const [frameworks] = useState(data.frameworks)
+  const [miniIcons] = useState(dataa.miniIcons)
+  const [languages] = useState(dataa.languages)
+  const [frameworks] = useState(dataa.frameworks)
 
-  const name = '{Abhinav Tumu}'
+  const name = 'Abhinav Tumu'
 
   const miniIconsList = miniIcons.map(linkData => (
     <MiniIcon
@@ -22,7 +24,11 @@ function App() {
     />
   ))
   const languagesList = languages.map(linkData => (
-    <Language title={linkData.title} imgsrc={linkData.imgsrc} />
+    <Language
+      link={linkData.link}
+      title={linkData.title}
+      imgsrc={linkData.imgsrc}
+    />
   ))
 
   const frameworksList = frameworks.map(linkData => (
@@ -34,13 +40,24 @@ function App() {
   ))
   return (
     <div className='Background'>
-      <Typing speed={100}>
-        <h1>{name}</h1>
-      </Typing>
-      <img className='profpic' src={pic} alt='profilepicture' />
+      <p class='headers'>{name}</p>
+      <Fade>
+        <img className='profpic' src={pic} alt='profilepicture' />
+      </Fade>
+      <Fade>
+        <div className='links'>{miniIconsList}</div>
+        <Typing>
+          <div className='bioDiv'>
+            <span className='bio'>Hi! </span>
+            <Typing.Delay ms={500} />
+            <span className='bio'>
+              I'm a computer science student at UC Irvine.
+            </span>
+          </div>
+        </Typing>
+      </Fade>
 
-      <div className='links'>{miniIconsList}</div>
-      <div>
+      <Fade bottom>
         <div>
           <p className='titletype'>Languages</p>
           {languagesList}
@@ -49,7 +66,8 @@ function App() {
           <p className='titletype'>Frameworks and Libraries</p>
           {frameworksList}
         </div>
-      </div>
+      </Fade>
+
       <div className='bottomtext'>Powered by React and Github Pages</div>
     </div>
   )
