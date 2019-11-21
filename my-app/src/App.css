@@ -1,84 +1,77 @@
 .Background {
-    background: rgb(153, 152, 160);
-    background: linear-gradient(90deg, rgb(56, 134, 236) 0%, rgba(0,212,255,1) 50%, rgb(37, 149, 241) 100%);
-    background: rgb(255, 255, 255);
-    height: 100%;
-    
-    width: 100%;
-    
-  
-    
-    top: 0;
-    left: 0;
-    text-align: center;
-    
+  background: rgb(153, 152, 160);
+  background: linear-gradient(
+    90deg,
+    rgb(56, 134, 236) 0%,
+    rgba(0, 212, 255, 1) 50%,
+    rgb(37, 149, 241) 100%
+  );
+  background: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: gray;
-    font-size: 40px;  
+  font-family: 'Courier New', Courier, monospace;
+  color: gray;
+  font-size: 40px;
 }
 
 .profpic {
-    height: 350px;
-    border-radius: 50%;
-    border:1px solid black;
-
+  height: 350px;
+  border-radius: 50%;
+  border: 1px solid black;
 }
 
 .links {
-   
-    
-    text-align: center;
-
+  text-align: center;
 }
 .link {
-    margin-left: 5px;
-    margin-right: 5px;
-    display: inline-block;
-    font-size: 30px;    
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 30px;
 }
 .text1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;  
-    
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
 }
 .icon {
-    height: 64px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: inline-block;
+  height: 64px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
 }
 .iconspec {
-    height: 64px;
-    display: inline-block;
+  height: 64px;
+  display: inline-block;
 }
 
 .icon2 {
-    height: 96px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: inline-block;
+  height: 96px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
 }
 .desc {
-    font-size: 25px;
-    font-family: 'Roboto';
-
+  font-size: 25px;
+  font-family: 'Roboto';
 }
 
 .titletype {
-    font-size: 25px;
-    font-family: 'Roboto';
+  font-size: 25px;
+  font-family: 'Roboto';
 }
 
 .smallpic {
-    height: 32px;
-    margin-top: 10px;
+  height: 32px;
+  margin-top: 10px;
 }
 
 .bottomtext {
-    text-align: right;
-    font-size:15px;
-
+  text-align: right;
+  font-size: 15px;
 }
