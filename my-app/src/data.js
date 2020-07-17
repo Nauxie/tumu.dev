@@ -30,17 +30,12 @@ const data = {
     {
       title: 'JavaScript',
       imgsrc:
-        'http://pluspng.com/img-png/javascript-vector-png-javascript-vector-logo-600.png'
+        'https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png'
     },
     {
       title: 'Python',
       imgsrc:
-        'http://www.iconarchive.com/download/i73027/cornmanthe3rd/plex/Other-python.ico'
-    },
-    {
-      title: 'Java',
-      imgsrc:
-        'https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png'
+        'https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png'
     },
     {
       title: 'C++',

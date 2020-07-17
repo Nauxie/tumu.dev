@@ -1,37 +1,43 @@
-import React, { useState } from 'react'
-import pic from './images/abhinav3.png'
-import './App.css'
-import Typing from 'react-typing-animation'
-import MiniIcon from './components/MiniIcon'
-import Language from './components/Language'
-import Framework from './components/Framework'
-import data from './data'
+import React, { useState } from "react";
+import pic from "./images/abhinav3.png";
+import "./App.css";
+import Typing from "react-typing-animation";
+import MiniIcon from "./components/MiniIcon";
+import Language from "./components/Language";
+import Framework from "./components/Framework";
+import data from "./data";
 
 function App() {
-  const [miniIcons] = useState(data.miniIcons)
-  const [languages] = useState(data.languages)
-  const [frameworks] = useState(data.frameworks)
+  const [miniIcons] = useState(data.miniIcons);
+  const [languages] = useState(data.languages);
+  const [frameworks] = useState(data.frameworks);
 
-  const name = '{Abhinav Tumu}'
+  const name = "{Abhinav Tumu}";
 
-  const miniIconsList = miniIcons.map(linkData => (
+  const miniIconsList = miniIcons.map((linkData) => (
     <MiniIcon
       link={linkData.link}
       title={linkData.title}
       imgsrc={linkData.imgsrc}
+      key={linkData.title}
     />
-  ))
-  const languagesList = languages.map(linkData => (
-    <Language title={linkData.title} imgsrc={linkData.imgsrc} />
-  ))
+  ));
+  const languagesList = languages.map((linkData) => (
+    <Language
+      title={linkData.title}
+      imgsrc={linkData.imgsrc}
+      key={linkData.title}
+    />
+  ));
 
-  const frameworksList = frameworks.map(linkData => (
+  const frameworksList = frameworks.map((linkData) => (
     <Framework
       link={linkData.link}
       title={linkData.title}
       imgsrc={linkData.imgsrc}
+      key={linkData.title}
     />
-  ))
+  ));
   return (
     <div className='Background'>
       <Typing speed={100}>
@@ -50,9 +56,8 @@ function App() {
           {frameworksList}
         </div>
       </div>
-      <div className='bottomtext'>Powered by React and Github Pages</div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
