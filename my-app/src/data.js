@@ -40,12 +40,6 @@ const data = {
         'http://www.iconarchive.com/download/i73027/cornmanthe3rd/plex/Other-python.ico'
     },
     {
-      link: 'https://www.java.com/en/',
-      title: 'Java',
-      imgsrc:
-        'https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png'
-    },
-    {
       link: 'http://www.cplusplus.com/',
       title: 'C++',
       imgsrc:
