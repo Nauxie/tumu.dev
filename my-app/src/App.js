@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import pic from "./images/abhinav3.png";
-import "./App.css";
-import Typing from "react-typing-animation";
-import MiniIcon from "./components/MiniIcon";
-import Language from "./components/Language";
-import Framework from "./components/Framework";
-import data from "./data";
+import React, { useState } from 'react';
+import pic from './images/abhinav3.png';
+import './App.css';
+import Typing from 'react-typing-animation';
+import MiniIcon from './components/MiniIcon';
+import Language from './components/Language';
+import Framework from './components/Framework';
+import data from './data';
 
 function App() {
   const [miniIcons] = useState(data.miniIcons);
   const [languages] = useState(data.languages);
-  const [frameworks] = useState(data.frameworks);
-
-  const name = "{Abhinav Tumu}";
+  const [mobileTech] = useState(data.mobileTech);
+  const [webTech] = useState(data.webTech);
+  const [cloudTech] = useState(data.cloudTech);
 
   const miniIconsList = miniIcons.map((linkData) => (
     <MiniIcon
@@ -30,7 +30,25 @@ function App() {
     />
   ));
 
-  const frameworksList = frameworks.map((linkData) => (
+  const mobileTechList = mobileTech.map((linkData) => (
+    <Framework
+      link={linkData.link}
+      title={linkData.title}
+      imgsrc={linkData.imgsrc}
+      key={linkData.title}
+    />
+  ));
+
+  const cloudTechList = cloudTech.map((linkData) => (
+    <Framework
+      link={linkData.link}
+      title={linkData.title}
+      imgsrc={linkData.imgsrc}
+      key={linkData.title}
+    />
+  ));
+
+  const webTechList = webTech.map((linkData) => (
     <Framework
       link={linkData.link}
       title={linkData.title}
@@ -40,20 +58,38 @@ function App() {
   ));
   return (
     <div className='Background'>
-      <Typing speed={100}>
-        <h1>{name}</h1>
-      </Typing>
+      <div className='text1'>
+        <h1>Abhinav Tumu</h1>
+      </div>
+
       <img className='profpic' src={pic} alt='profilepicture' />
 
-      <div className='links'>{miniIconsList}</div>
+      <div>{miniIconsList}</div>
       <div>
+        <div className='text1'>
+          <p>
+            {
+              "Welcome! I'm a Computer Science student at UC Irvine.\n I'm also an aspiring iOS & web developer."
+            }
+          </p>
+
+          <p></p>
+        </div>
         <div>
           <p className='titletype'>Languages</p>
           {languagesList}
         </div>
         <div>
-          <p className='titletype'>Frameworks and Libraries</p>
-          {frameworksList}
+          <p className='titletype'>Mobile Technologies</p>
+          {mobileTechList}
+        </div>
+        <div>
+          <p className='titletype'>Web Technologies</p>
+          {webTechList}
+        </div>
+        <div>
+          <p className='titletype'>Cloud Technologies</p>
+          {cloudTechList}
         </div>
       </div>
     </div>
